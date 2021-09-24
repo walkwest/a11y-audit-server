@@ -14,5 +14,5 @@ server.use('/accessibility', accessibility);
  * Listen for connections 
  */
 server.listen(port, () => {
-  console.log(`Server up and listening at http://localhost:${port}`)
+    console.log(`Server up and listening at http://localhost:${port}`)
 });
