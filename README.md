@@ -2,11 +2,13 @@
 
 An accessibility API than can be used for testing a website's compliance to [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/guidelines) guidelines. Simply feed the API a website URL and it will return a set of results using [axe](https://www.deque.com/axe/), the world’s leading digital accessibility toolkit.
 
+The server utilizes [Puppeteer](https://pptr.dev/) to render the website, run `axe-core`, and then snap a screenshot.
+
 Built using the [Express](https://expressjs.com/) framework for [Node.js](https://nodejs.org/en/). 
 
 ## Requirements
 
-- A server running [Node.js](https://nodejs.org/en/)
+- A server running [Node.js](https://nodejs.org/en/) (v7.6.0 or greater)
 
 ## Using the API
 
